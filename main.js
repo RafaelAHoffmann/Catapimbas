@@ -8,8 +8,14 @@ let contador = 0;
 
 while (contador < listaDeTeclas.length) {
     
-    listaDeTeclas[contador].onclick = tocaSomPom
+    listaDeTeclas[contador].onclick = function () {
+        tocaSom('#som_tecla_splash');
+    };
     
     contador += 1
     
 }
+
+const instrumento = listaDeTeclas[contador].classList[1];
+
+console.log(instrumento);
