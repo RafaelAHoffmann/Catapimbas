@@ -2,4 +2,10 @@ function tocaSomPom () {
     document.querySelector('#som_tecla_pom').play();
 }
 
-document.querySelector('.tecla_pom').onclick = tocaSomPom;
+const listadeTeclas = document.querySelectorAll('.tecla').onclick = tocaSomPom;
+
+let contador = 0;
+
+while () {
+    listadeTeclas[0].onclick = tocaSomPom
+}
